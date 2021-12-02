@@ -13,7 +13,7 @@ public class Day1 {
     }
 
     public static void part1() {
-        List<Integer> input = Util.readFileAsIntegers("inputs/day1.txt");
+        List<Integer> input = Util.readFileAsIntegers("inputs/day1-1.txt");
         int increases = 0;
         for (int i = 0; i < input.size() - 1; i++) {
             if (input.get(i) < input.get(i + 1)) {
