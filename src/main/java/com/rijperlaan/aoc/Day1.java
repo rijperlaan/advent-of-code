@@ -1,6 +1,4 @@
-package com.rijperlaan.aoc.day1;
-
-import com.rijperlaan.aoc.Util;
+package com.rijperlaan.aoc;
 
 import java.util.ArrayList;
 import java.util.List;
