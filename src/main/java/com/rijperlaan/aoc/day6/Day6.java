@@ -1,14 +1,13 @@
 package com.rijperlaan.aoc.day6;
 
-import com.rijperlaan.aoc.Util;
-
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+
+import com.rijperlaan.aoc.Util;
 
 public class Day6 {
     public static void main(String[] args) {
-        List<String> input = Util.readFileAsStrings("inputs/day6-1.txt");
+        String input = Util.readFileAsString("inputs/day6-1.txt");
 
         System.out.println("--- Part 1 : ---");
         part1(input);
@@ -17,12 +16,12 @@ public class Day6 {
         part2(input);
     }
 
-    public static void part1(List<String> input) {
-        calc(input.get(0), 80);
+    public static void part1(String input) {
+        calc(input, 80);
     }
 
-    public static void part2(List<String> input) {
-        calc(input.get(0), 256);
+    public static void part2(String input) {
+        calc(input, 256);
     }
 
     public static void calc(String input, int days) {

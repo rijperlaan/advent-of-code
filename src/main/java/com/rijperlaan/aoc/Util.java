@@ -40,4 +40,16 @@ public class Util {
 
         return list;
     }
+
+    public static String readFileAsString(String fileName) {
+        String result = "";
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+            result = br.readLine();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return result;
+    }
 }
