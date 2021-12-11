@@ -1,4 +1,4 @@
-package com.rijperlaan.aoc.day7;
+package com.rijperlaan.aoc.day07;
 
 import java.util.Arrays;
 

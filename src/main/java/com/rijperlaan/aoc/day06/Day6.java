@@ -1,9 +1,9 @@
-package com.rijperlaan.aoc.day6;
+package com.rijperlaan.aoc.day06;
+
+import com.rijperlaan.aoc.Util;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import com.rijperlaan.aoc.Util;
 
 public class Day6 {
     public static void main(String[] args) {

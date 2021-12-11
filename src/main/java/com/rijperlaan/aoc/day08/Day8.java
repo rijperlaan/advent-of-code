@@ -1,4 +1,4 @@
-package com.rijperlaan.aoc.day8;
+package com.rijperlaan.aoc.day08;
 
 import com.rijperlaan.aoc.Util;
 

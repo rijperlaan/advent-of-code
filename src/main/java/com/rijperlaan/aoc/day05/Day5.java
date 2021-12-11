@@ -1,4 +1,4 @@
-package com.rijperlaan.aoc.day5;
+package com.rijperlaan.aoc.day05;
 
 import com.rijperlaan.aoc.Util;
 
@@ -81,7 +81,7 @@ public class Day5 {
             int fromY = Integer.parseInt(from[1]);
             int toX = Integer.parseInt(to[0]);
             int toY = Integer.parseInt(to[1]);
-            
+
             if (fromX == toX) {
                 if (fromY > toY) {
                     int temp = fromY;
